@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yn+H44UpC36B7C3hX32g5u037+XZa4ShCHNEXhqnZKW3G1xKhZswc42WcqjNmKaD03r//amOQrdLn55zw5hRkw==",
+  "dgSpecHash": "QubHqaW66BXEkk0lgkicuA2z5fX+2+Vg2bMxQVTbnDIpJh9Y6ICafT/X63g0qHOI9yMPglCFvy5+5v1WrnPFRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Birinci Novbe\\source\\repos\\Api\\Twitter.Business\\Twitter.Business.csproj",
+  "projectFilePath": "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.Business\\Twitter.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Birinci Novbe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Birinci Novbe\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

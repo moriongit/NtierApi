@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kB9Ls69wmjyIstrb6jhMqbEVNh29AEiqBE/xxcWb5+rJccf16CJUyFr0RD7nWKSVgBIiAjbaAoerp+hIkwBs6w==",
+  "dgSpecHash": "KoTkZVXuetXrDj7jjkacal36Kb1q9OtW2W/FxcZitFGJtV/dwRPR0DDrajRKYRdXbr15fqTPtVl4nqgH0ao/kQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Birinci Novbe\\source\\repos\\Api\\Twitter.DAL\\Twitter.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.DAL\\Twitter.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Birinci Novbe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Birinci Novbe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
