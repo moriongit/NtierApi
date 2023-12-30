@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "qajnPFJ3nqv73ClYAixJGwqf2Y7vsox1mFu1G5J0/31nayB5nazKTG+8OK/a+PTN+9RBYHrj2p0mHBdvYtTdjg==",
+  "dgSpecHash": "aoMNE1uKjZ7+60T4v2C6pN7uwjEpAB24OQUSbHVYaZ8WFMfYWJxrWnTvsay2xmYtJEJZ5U7qUky4bEOAPPY8RQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.API\\Twitter.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Birinci Novbe\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Birinci Novbe\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Birinci Novbe\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\Birinci Novbe\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Birinci Novbe\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\Birinci Novbe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Birinci Novbe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Birinci Novbe\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Birinci Novbe\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Birinci Novbe\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Birinci Novbe\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.25\\microsoft.entityframeworkcore.6.0.25.nupkg.sha512",

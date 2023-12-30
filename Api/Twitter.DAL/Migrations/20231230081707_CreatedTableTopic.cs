@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Twitter.DAL.Migrations
 {
-    public partial class CreatedTopicsTable : Migration
+    public partial class CreatedTableTopic : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

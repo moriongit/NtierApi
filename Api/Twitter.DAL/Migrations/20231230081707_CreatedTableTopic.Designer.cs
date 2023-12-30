@@ -12,8 +12,8 @@ using Twitter.DAL.Contexts;
 namespace Twitter.DAL.Migrations
 {
     [DbContext(typeof(TwitterContext))]
-    [Migration("20231229085920_CreatedTopicsTable")]
-    partial class CreatedTopicsTable
+    [Migration("20231230081707_CreatedTableTopic")]
+    partial class CreatedTableTopic
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
