@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.DAL\\Twitter.DAL.csproj": {}
+    "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.DAL\\Twitter.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj": {
+    "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj",
+        "projectUniqueName": "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj",
         "projectName": "Twitter.Core",
-        "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj",
-        "packagesPath": "C:\\Users\\Birinci Novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\obj\\",
+        "projectPath": "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj",
+        "packagesPath": "C:\\Users\\birinci novbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Birinci Novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\birinci novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,17 +65,17 @@
         }
       }
     },
-    "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.DAL\\Twitter.DAL.csproj": {
+    "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.DAL\\Twitter.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.DAL\\Twitter.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.DAL\\Twitter.DAL.csproj",
         "projectName": "Twitter.DAL",
-        "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.DAL\\Twitter.DAL.csproj",
-        "packagesPath": "C:\\Users\\Birinci Novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.DAL\\obj\\",
+        "projectPath": "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.DAL\\Twitter.DAL.csproj",
+        "packagesPath": "C:\\Users\\birinci novbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Birinci Novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\birinci novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj": {
-                "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj"
+              "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj": {
+                "projectPath": "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj"
               }
             }
           }

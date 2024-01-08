@@ -20,3 +20,4 @@ C:\Users\Birinci Novbe\Desktop\TwitterApi\Api\Twitter.Core\obj\Debug\net6.0\Twit
 C:\Users\Birinci Novbe\Desktop\TwitterApi\Api\Twitter.Core\obj\Debug\net6.0\refint\Twitter.Core.dll
 C:\Users\Birinci Novbe\Desktop\TwitterApi\Api\Twitter.Core\obj\Debug\net6.0\Twitter.Core.pdb
 C:\Users\Birinci Novbe\Desktop\TwitterApi\Api\Twitter.Core\obj\Debug\net6.0\ref\Twitter.Core.dll
+C:\Users\birinci novbe\Desktop\TwitterApi\Api\Twitter.Core\obj\Debug\net6.0\Twitter.Core.csproj.AssemblyReference.cache

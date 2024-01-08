@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj": {}
+    "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj": {
+    "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj",
+        "projectUniqueName": "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj",
         "projectName": "Twitter.Core",
-        "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj",
-        "packagesPath": "C:\\Users\\Birinci Novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Birinci Novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\obj\\",
+        "projectPath": "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\Twitter.Core.csproj",
+        "packagesPath": "C:\\Users\\birinci novbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\birinci novbe\\Desktop\\TwitterApi\\Api\\Twitter.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Birinci Novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\birinci novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

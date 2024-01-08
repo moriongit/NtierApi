@@ -156,3 +156,8 @@ C:\Users\Birinci Novbe\Desktop\TwitterApi\Api\Twitter.API\obj\Debug\net6.0\scope
 C:\Users\Birinci Novbe\Desktop\TwitterApi\Api\Twitter.API\obj\Debug\net6.0\Twitter.API.csproj.CopyComplete
 C:\Users\Birinci Novbe\Desktop\TwitterApi\Api\Twitter.API\obj\Debug\net6.0\Twitter.API.genruntimeconfig.cache
 C:\Users\Birinci Novbe\Desktop\TwitterApi\Api\Twitter.API\obj\Debug\net6.0\ref\Twitter.API.dll
+C:\Users\birinci novbe\Desktop\TwitterApi\Api\Twitter.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\birinci novbe\Desktop\TwitterApi\Api\Twitter.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\birinci novbe\Desktop\TwitterApi\Api\Twitter.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\birinci novbe\Desktop\TwitterApi\Api\Twitter.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\birinci novbe\Desktop\TwitterApi\Api\Twitter.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

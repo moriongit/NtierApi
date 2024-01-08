@@ -7,20 +7,21 @@ using System.Text;
 using System.Threading.Tasks;
 using Twitter.Core.Entities;
 
-namespace Twitter.DAL.Configurations
-{
-    public class AppUserConfiguration : IEntityTypeConfiguration<AppUser>
-    {
-        public void Configure(EntityTypeBuilder<Topic> builder)
-        {
-            builder.Property(t => t.Name)
-                .IsRequired()
-                .HasMaxLength(32);
-        }
+namespace Twitter.DAL.Configurations;
 
-        public void Configure(EntityTypeBuilder<AppUser> builder)
-        {
-            throw new NotImplementedException();
-        }
-    }
+public class AppUserConfiguration : IEntityTypeConfiguration<AppUser>
+{
+   public void Configure(EntityTypeBuilder<AppUser> builder)
+   {
+      builder.Property(t => t.Fullname)
+          .IsRequired()
+          .HasMaxLength(32);
+      builder.Property(t => t.BirthDate)
+          .IsRequired()
+          .HasColumnType("date");
+      
+   }
+
+        
 }
+
