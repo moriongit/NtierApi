@@ -4,9 +4,15 @@ using Twitter.Business;
 using Twitter.Core.Entities;
 using Microsoft.AspNetCore.Identity;
 using Twitter.API;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//var jwt = new JWT();
+//var config = builder.Configuration.GetSection("Jwt");
+var jwt = builder.Configuration.GetSection("Jwt").Get<JWT>();
+//config.Bind(jwt);
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -18,6 +24,9 @@ builder.Services.AddUserIdentity();
 builder.Services.AddRepositories();
 builder.Services.AddServices();
 builder.Services.AddBusinessLayer();
+builder.Services.AddAuth(jwt);
+    
+    
 
 var app = builder.Build();
 

@@ -30,7 +30,7 @@ namespace Twitter.Business.Services.Implements
 
         }
          
-        public async Task<string> Login(LoginDto dto)
+        public async Task<TokenDto> Login(LoginDto dto)
         { 
 
             AppUser user = null;

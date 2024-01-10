@@ -10,7 +10,7 @@ namespace Twitter.Business.Services.Interfaces
 {
     public interface IAuthService 
     {
-        Task<string> Login(LoginDto dto);
+        Task<TokenDto> Login(LoginDto dto);
     }
     
 }
