@@ -33,7 +33,7 @@ namespace Twitter.Business.Services.Implements
         public async Task<TokenDto> Login(LoginDto dto)
         { 
 
-            AppUser user = null;
+            AppUser? user = null;
             if (dto.UsernameOrEmail.Contains("@"))
             {
                 user = await _userManager.FindByEmailAsync(dto.UsernameOrEmail);
@@ -46,8 +46,12 @@ namespace Twitter.Business.Services.Implements
             var result = await _userManager.CheckPasswordAsync(user,dto.Password);
 
             if (!result) throw new UsernameOrPasswordWrongException();
-            
-            return _tokenService.CreateToken(user);
+            string role = (await _userManager.GetRolesAsync(user)).First();
+            return _tokenService.CreateToken(new TokenParamsDto
+            {
+                Role = role,
+                User = user,
+            });
 
         }
     }

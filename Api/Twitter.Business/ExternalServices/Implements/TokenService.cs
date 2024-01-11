@@ -21,13 +21,14 @@ namespace Twitter.Business.ExternalServices.Implements
         {
             _config = config;
         }
-        public TokenDto CreateToken(AppUser user)
+        public TokenDto CreateToken(TokenParamsDto dto)
         {
             List<Claim> claims = new List<Claim>();
-            claims.Add(new Claim(ClaimTypes.Name, user.UserName));
-            claims.Add(new Claim(ClaimTypes.NameIdentifier, user.Id));
-            claims.Add(new Claim(ClaimTypes.GivenName, user.Fullname));
-            claims.Add(new Claim("Birth", user.BirthDate.ToString()));
+            claims.Add(new Claim(ClaimTypes.Name, dto.User.UserName));
+            //claims.Add(new Claim(ClaimTypes.NameIdentifier, user.Id));
+            claims.Add(new Claim(ClaimTypes.GivenName, dto.User.Fullname));
+            claims.Add(new Claim(ClaimTypes.Role, dto.Role));
+            //claims.Add(new Claim("Birth", user.BirthDate.ToString()));
 
             SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             SigningCredentials cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);

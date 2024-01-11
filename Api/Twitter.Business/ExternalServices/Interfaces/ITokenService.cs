@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,6 @@ namespace Twitter.Business.ExternalServices.Interfaces
 {
     public interface ITokenService
     {
-        TokenDto CreateToken(AppUser user);
+        TokenDto CreateToken(TokenParamsDto dto );
     }
 }

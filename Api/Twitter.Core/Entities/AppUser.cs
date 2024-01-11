@@ -13,6 +13,7 @@ namespace Twitter.Core.Entities
         public string Fullname {  get; set; }
         public DateTime BirthDate { get; set; }
         
+        public IEnumerable<Post> Posts { get; set; }
       
     }
 }
