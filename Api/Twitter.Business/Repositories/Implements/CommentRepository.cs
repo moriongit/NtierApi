@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 using Twitter.Business.Repositories.Interfaces;
 using Twitter.Core.Entities;
 using Twitter.DAL.Contexts;
-
+ 
 namespace Twitter.Business.Repositories.Implements
 {
-    public class PostRepository : GenericRepository<Post>, IPostRepository
+    public class CommentRepository : GenericRepository<Comment>, ICommentRepository
     {
-        public PostRepository(TwitterContext context) : base(context)
-        {
+        public CommentRepository(TwitterContext context) : base(context)
+        { 
         }
     }
 }

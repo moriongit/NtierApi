@@ -14,6 +14,8 @@ namespace Twitter.Core.Entities
         public DateTime BirthDate { get; set; }
         
         public IEnumerable<Post> Posts { get; set; }
-      
+        public ICollection<Comment> Comments { get; set; }
+        
+
     }
 }
